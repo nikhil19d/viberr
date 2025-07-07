@@ -1,5 +1,5 @@
 import Image from "next/image"
-import image from "@/public/Image.png"
+import image from "@/public/Metric.png"
 import { MetricsCard } from "@/ui/MetricsCard"
 export const Metric = () => {
   return (

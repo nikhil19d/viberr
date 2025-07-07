@@ -1,5 +1,5 @@
 import Image from "next/image"
-import vector from "@/public/vector.png"
+import vector from "@/public/work.png"
 import { Box } from "@/ui/WorkCard"
 export const Work = () => {
   return (

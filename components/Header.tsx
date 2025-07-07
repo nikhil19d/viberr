@@ -16,7 +16,7 @@ export const Header = () => {
   const list = ['About', 'Services', 'Contact', 'Blog']
 
   return (
-    <div className="header font-sans p-12">
+    <div className="header font-sans p-12 w-screen">
       <nav className="flex flex-row justify-between m-auto mb-28 max-w-3/4">
         <div><Image src={logo} alt="logo" /></div>
         <div className="flex flex-row justify-between w-2/5">

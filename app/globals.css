@@ -122,6 +122,9 @@
 }
 .header{
   background-image: url('../public/Header section.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .btn{
   background-color: #562291
@@ -181,7 +184,7 @@
 }
 
 .metric-img{
-  background-image: url('../public/Image.png');
+  background-image: url('../public/Metric.png');
   height: 490px;
   width: 504px
 }
