@@ -122,9 +122,9 @@
 }
 .header{
   background-image: url('../public/Header section.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
 }
 .btn{
   background-color: #562291
@@ -224,4 +224,25 @@
 }
 .f6bc{
   background-color: #FEEDDA
+}
+.blue{
+  color: #2563EB
+}
+.join{
+  background-image: url('../public/BG.png')
+}
+
+.form{
+  background-image: url('../public/joinviberr.png');
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.category{
+  background-color: #D1D5DB;
+  border: 1px solid #9CA3AF
+}
+.ftext{
+  color: #9CA3AF
 }

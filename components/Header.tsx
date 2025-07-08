@@ -16,7 +16,7 @@ export const Header = () => {
   const list = ['About', 'Services', 'Contact', 'Blog']
 
   return (
-    <div className="header font-sans p-12 w-screen">
+    <div className="header font-sans p-12">
       <nav className="flex flex-row justify-between m-auto mb-28 max-w-3/4">
         <div><Image src={logo} alt="logo" /></div>
         <div className="flex flex-row justify-between w-2/5">
@@ -28,18 +28,18 @@ export const Header = () => {
         </div>
         <button className="font-semibold text-base px-11 py-3.5 btn text-white rounded-xl">Join</button>
       </nav>
-      <div className="flex flex-col m-auto w-5/6 p-28">
-        <Image className="absolute top-70 left-50" src={blueheart} alt="heart" />
-        <Image className="absolute top-80 left-85" src={handclap} alt="hand" />
-        <Image className="absolute top-130 left-40" src={hand} alt="img" />
-        <Image className="absolute top-65 left-190" src={star} alt="img" />
-        <Image className="absolute top-140 right-60" src={money} alt="img" />
-        <Image className="absolute top-55 left-130" src={memo} alt="img" />
-        <Image className="absolute top-170 left-190" src={speaker} alt="img" />
-        <Image className="absolute top-140 left-100" src={target} alt="img" />
-        <Image className="absolute top-85 right-75" src={symbol} alt="img" />
-        <Image className="absolute top-70 right-60" src={heart} alt="img" />
-        <Image className="absolute top-115 right-40" src={msg} alt="img" />
+      <div className="relative flex flex-col m-auto w-5/6 p-28">
+        <Image className="absolute top-10 left-20" src={blueheart} alt="heart" />
+        <Image className="absolute top-25 left-50" src={handclap} alt="hand" />
+        <Image className="absolute top-60 left-5" src={hand} alt="img" />
+        <Image className="absolute top-10 left-155" src={star} alt="img" />
+        <Image className="absolute bottom-20 right-20" src={money} alt="img" />
+        <Image className="absolute top-0 left-100" src={memo} alt="img" />
+        <Image className="absolute top-120 right-80" src={speaker} alt="img" />
+        <Image className="absolute bottom-40 left-60" src={target} alt="img" />
+        <Image className="absolute top-33 right-40" src={symbol} alt="img" />
+        <Image className="absolute top-15 right-10" src={heart} alt="img" />
+        <Image className="absolute bottom-80 right-0" src={msg} alt="img" />
         <div className="text-6xl font-bold m-auto">
           <h1 className="text-center">Get Paid to Like.</h1>
           <h1 className="text-center">Promote with Real Reach.</h1>
