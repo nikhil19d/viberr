@@ -10,7 +10,7 @@ export const Review = () => {
     <div className="py-11 px-18 font-sans flex flex-col items-center text-center">
       <p className="w-36 h-9 px-4 py-2 m-auto review text-base rounded-full mb-5 font-normal text-center items-center">Reviews</p>
       <h1 className="font-semibold text-5xl mb-5">Real Stories from Real Viberr Users</h1>
-      <p className="review-text text-base m-auto font-normal w-3/5 px-8 mb-12">Whether you're watching, promoting, or creating -- Viberr gives you the tools to grow, earn, and connect. Here's what our users have to say.</p>
+      <p className="review-text text-base m-auto font-normal w-3/5 px-8 mb-12">Whether you`re watching, promoting, or creating -- Viberr gives you the tools to grow, earn, and connect. Here`s what our users have to say.</p>
       <div className="flex justify-between w-5/6">
         <div>
           <AvatarCard className="avatar1 flex items-end justify-center mb-4">

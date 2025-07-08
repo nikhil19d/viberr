@@ -5,8 +5,8 @@ export const Mission = () => {
     <div className="px-40 py-20 font-sans">
       <div className="pb-12">
         <div className="font-semibold text-5xl/tight text-center">
-          <h1>Viberr isn't just an app.</h1>
-          <h1>It's a movement to fix social media.</h1>
+          <h1>Viberr isn`t just an app.</h1>
+          <h1>It`s a movement to fix social media.</h1>
         </div>
         <p className="m-auto font-normal text-lg text-center w-3/4 text">We`re building a platform where every like matters, every view counts, and every creator gets fairly compensated for their attention and engagement</p>
       </div>
